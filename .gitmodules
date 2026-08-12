@@ -1,0 +1,3 @@
+[submodule "gravity_sim"]
+	path = gravity_sim
+	url = https://github.com/kavan010/gravity_sim
