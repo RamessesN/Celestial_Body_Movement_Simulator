@@ -24,7 +24,7 @@ A 3D solar-system simulation built with Swift. A glowing Sun at the center, eigh
 
 <pre>
 <code>.
-├── src/                            # Swift implementation
+├── src/                             # Swift implementation
 │   ├── Package.swift
 │   └── Sources/GravitySim/
 │       ├── GravitySimApp.swift      # AppKit bootstrap
@@ -35,9 +35,9 @@ A 3D solar-system simulation built with Swift. A glowing Sun at the center, eigh
 │       ├── SceneBuilder.swift       # Scene setup (solar system / lights / textures)
 │       ├── SimulationRenderer.swift # Per-frame render loop
 │       └── Resources/Textures/      # Planet texture assets
-├── gravity_sim/                    # Original C++ version (kavan010/gravity_sim)
+├── gravity_sim/                     # Original C++ version (kavan010/gravity_sim)
 ├── README.md
-└── LICENSE               # MIT License</code>
+└── LICENSE                          # MIT License</code>
 </pre>
 
 ---
@@ -63,7 +63,7 @@ A 3D solar-system simulation built with Swift. A glowing Sun at the center, eigh
 
 ---
 
-## Acknowledgments
+## 5. Acknowledgments
 
 - Planet textures: [Solar System Scope](https://www.solarsystemscope.com/textures/), CC BY 4.0
 - C++ ref implementation: [kavan010/gravity_sim](https://github.com/kavan010/gravity_sim), kept as a git submodule in `gravity_sim/`
